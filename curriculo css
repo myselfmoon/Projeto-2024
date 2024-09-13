@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo de [Seu Nome]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        .container {
+            width: 80%;
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            margin: 0;
+            color: #333;
+        }
+        header p {
+            margin: 5px 0;
+            color: #555;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        p, ul {
+            margin: 10px 0;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>[Seu Nome]</h1>
+            <p>Email: [seuemail@example.com]</p>
+            <p>Telefone: [Seu Telefone]</p>
+            <p>LinkedIn: <a href="[Seu LinkedIn]" target="_blank">Seu LinkedIn</a></p>
+            <p>Website: <a href="[Seu Website]" target="_blank">Seu Website</a></p>
+        </header>
+
+        <section>
+            <h2>Sobre Mim</h2>
+            <p>[Uma breve descrição sobre você, suas habilidades e o que você busca em sua carreira.]</p>
+        </section>
+
+        <section>
+            <h2>Experiência Profissional</h2>
+            <ul>
+                <li><strong>[Cargo]</strong> - [Empresa] (MM/AAAA - MM/AAAA)</li>
+                <li><strong>[Cargo]</strong> - [Empresa] (MM/AAAA - MM/AAAA)</li>
+                <!-- Adicione mais experiências conforme necessário -->
+            </ul>
+        </section>
+
+        <section>
+            <h2>Educação</h2>
+            <ul>
+                <li><strong>[Curso]</strong> - [Instituição] (MM/AAAA - MM/AAAA)</li>
+                <!-- Adicione mais informações educacionais conforme necessário -->
+            </ul>
+        </section>
+
+        <section>
+            <h2>Habilidades</h2>
+            <ul>
+                <li>[Habilidade 1]</li>
+                <li>[Habilidade 2]</li>
+                <li>[Habilidade 3]</li>
+                <!-- Adicione mais habilidades conforme necessário -->
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
